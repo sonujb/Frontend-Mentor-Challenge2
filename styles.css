@@ -1,0 +1,88 @@
+body{
+  background-color: hsl(0, 0%, 98%);
+}
+
+/* Navbar */
+.navbar-custom{
+  background-color: hsl(0, 0%, 98%);
+}
+
+.navbar-brand{
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.dropdown-img{
+  margin: 2px 9px 2px 2px;
+}
+
+.login-link{
+  margin: 0 2px 0 805px;
+}
+
+.register-link{
+  width: 110px;
+  margin: 0 2px 0 5px;
+  border: 2px solid grey;
+  border-radius: 12px;
+  text-align: center;
+}
+
+/* Description part */
+h1{
+  font-size: 80px;
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 700;
+}
+
+.description{
+  margin: 80px 5px 10px 50px;
+}
+
+.description-p{
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 500;
+  color: grey;
+}
+
+.learn-more-button{
+  height: 50px;
+  width: 150px;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 12px;
+  color: white;
+  margin: 20px 0 5px 0;
+}
+
+.learn-more-button:hover{
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+}
+
+.clients{
+  margin: 60px 0 10px 0;
+}
+
+.client-img{
+  padding: 10px;
+}
+
+.brand-img{
+  height: 700px;
+  width: 500px
+}
+
+@media (max-width: 1028px) {
+
+  .login-link{
+    margin: 0 2px 0 2px;
+  }
+
+  .register-link{
+    margin: 0 2px 0 2px;
+  }
+
+}
